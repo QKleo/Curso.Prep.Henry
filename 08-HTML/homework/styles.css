@@ -1,0 +1,55 @@
+
+html{
+    background-color: darksalmon;
+    background-image: url(https://media.istockphoto.com/photos/spices-on-white-background-picture-id880635898);
+
+    background-repeat: no-repeat;
+    background-size: 1024px 844px;
+    background-position: 50% 70%;
+}
+
+h1{ 
+    font:normal 2em ;
+    background-color: blue;
+    width: 35%;
+    border-radius: 10px;
+    margin: 15px auto;
+    text-align: center;
+    padding: 15px;
+    color: aqua;
+    box-shadow: cornflowerblue 5px 5px 10px;
+    text-shadow: 2px 2px 3px;
+}
+img{
+    height: 400px;
+    
+
+}
+#thirdDiv{
+    height: 600px;
+    width: 500px;
+    text-align: center;
+    font:normal 2em;
+    
+    color: rgb(4, 14, 0);
+    padding: 50px;
+    margin: 20px auto;
+    padding: 50px;
+    
+    
+}
+
+#spanID{   
+    text-align: center; 
+    font-size: 18px;
+    margin: 50px 50px;
+    padding: 50px;
+
+
+}
+.divClass{
+    text-align: center;
+    color: rgb(22, 3, 39);
+    background-color: rgb(235, 215, 217);
+
+}
