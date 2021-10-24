@@ -1,0 +1,36 @@
+
+
+
+html{
+    background-color: aqua;
+
+
+
+
+}
+img{
+   width: 300px
+}
+
+#personal{
+    font: normal;
+    background-color: rgb(145, 135, 168);
+    width: 40%;
+    margin: 10px auto;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: black 10px 10px 10px;
+
+
+
+}
+#otro{
+    width: 40%;
+    background-image: url("https://media.gettyimages.com/photos/black-and-white-king-and-knight-of-chess-setup-on-dark-background-picture-id670825456");
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
+
+
+}
