@@ -124,21 +124,37 @@ function sortArray(arr) {
   //Ej: Recibe ---> ["You", "are", "beautiful", "looking"] || Devuelve ---> [“You", "are", "looking", "beautiful"]
   //Escribe tu código aquí
   
-  sArr=[];
-  nuevoArr=[];
-
+  k=0
+  var objeto={}
   for(i=0;i<arr.length;i++){
-    sArr[i]=[arr[i].length,arr[i]];
-  }
-  sArr.sort();
-  for(k=0;k<sArr.length;k++){
-    nuevoArr[k]=sArr[k][1];
-  }
-  
+      
+      objeto[arr[i]]=arr[i].length
 
-  return nuevoArr;
+  }
+  lista=[]
+ 
+  while(lista.length<arr.length){
+      k++
+      for (i=0;i<arr.length;i++){
+           if(objeto[arr[i]]===k){
+              
+          lista.push(arr[i])}}
+      }
+    
+ 
   
-    }
+    return lista;
+
+
+}
+
+
+ 
+  
+    
+  
+  
+    
 
   
 
